@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace HospitalManage
 {
-    public partial class Login : Form
+    public partial class MyCheckups : Form
     {
-        public Login()
+        public MyCheckups()
         {
             InitializeComponent();
-            
- }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
