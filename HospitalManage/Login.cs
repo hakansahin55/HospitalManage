@@ -10,19 +10,14 @@ using System.Windows.Forms;
 
 namespace HospitalManage
 {
-    public partial class Mainpage : Form
+    public partial class Login : Form
     {
-        public Mainpage()
+        public Login()
         {
             InitializeComponent();
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void Form1_Load(object sender, EventArgs e)
         {
 
         }

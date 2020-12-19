@@ -55,8 +55,9 @@
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(186, 577);
+            this.panel1.Size = new System.Drawing.Size(248, 710);
             this.panel1.TabIndex = 0;
             // 
             // button4
@@ -67,9 +68,10 @@
             this.button4.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
             this.button4.Image = global::HospitalManage.Properties.Resources.Ekran_Alıntısı;
-            this.button4.Location = new System.Drawing.Point(0, 535);
+            this.button4.Location = new System.Drawing.Point(0, 658);
+            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(186, 42);
+            this.button4.Size = new System.Drawing.Size(248, 52);
             this.button4.TabIndex = 1;
             this.button4.Text = "Log Out";
             this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
@@ -83,13 +85,15 @@
             this.button3.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
             this.button3.Image = global::HospitalManage.Properties.Resources.Conact;
-            this.button3.Location = new System.Drawing.Point(0, 270);
+            this.button3.Location = new System.Drawing.Point(0, 333);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(186, 42);
+            this.button3.Size = new System.Drawing.Size(248, 52);
             this.button3.TabIndex = 1;
             this.button3.Text = "My Info";
             this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -99,9 +103,10 @@
             this.button2.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
             this.button2.Image = global::HospitalManage.Properties.Resources.diagram;
-            this.button2.Location = new System.Drawing.Point(0, 228);
+            this.button2.Location = new System.Drawing.Point(0, 281);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(186, 42);
+            this.button2.Size = new System.Drawing.Size(248, 52);
             this.button2.TabIndex = 1;
             this.button2.Text = "Appointments";
             this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
@@ -115,9 +120,10 @@
             this.button1.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
             this.button1.Image = global::HospitalManage.Properties.Resources.calendar;
-            this.button1.Location = new System.Drawing.Point(0, 186);
+            this.button1.Location = new System.Drawing.Point(0, 229);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(186, 42);
+            this.button1.Size = new System.Drawing.Size(248, 52);
             this.button1.TabIndex = 1;
             this.button1.Text = "My Check-ups";
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
@@ -131,9 +137,10 @@
             this.AnaMenubtn.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AnaMenubtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
             this.AnaMenubtn.Image = global::HospitalManage.Properties.Resources.home;
-            this.AnaMenubtn.Location = new System.Drawing.Point(0, 144);
+            this.AnaMenubtn.Location = new System.Drawing.Point(0, 177);
+            this.AnaMenubtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.AnaMenubtn.Name = "AnaMenubtn";
-            this.AnaMenubtn.Size = new System.Drawing.Size(186, 42);
+            this.AnaMenubtn.Size = new System.Drawing.Size(248, 52);
             this.AnaMenubtn.TabIndex = 1;
             this.AnaMenubtn.Text = "Ana Menu";
             this.AnaMenubtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
@@ -145,8 +152,9 @@
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(186, 144);
+            this.panel2.Size = new System.Drawing.Size(248, 177);
             this.panel2.TabIndex = 0;
             // 
             // label1
@@ -155,39 +163,44 @@
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(158)))), ((int)(((byte)(161)))), ((int)(((byte)(178)))));
-            this.label1.Location = new System.Drawing.Point(45, 106);
+            this.label1.Location = new System.Drawing.Point(60, 130);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(86, 16);
+            this.label1.Size = new System.Drawing.Size(103, 20);
             this.label1.TabIndex = 1;
             this.label1.Text = "User Name";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::HospitalManage.Properties.Resources.Untitled_11;
-            this.pictureBox1.Location = new System.Drawing.Point(58, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(77, 15);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(63, 63);
+            this.pictureBox1.Size = new System.Drawing.Size(84, 78);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(406, 270);
+            this.pictureBox2.Location = new System.Drawing.Point(541, 332);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox2.Size = new System.Drawing.Size(133, 62);
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
             // 
             // Mainpage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
-            this.ClientSize = new System.Drawing.Size(951, 577);
+            this.ClientSize = new System.Drawing.Size(1268, 710);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Mainpage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";
