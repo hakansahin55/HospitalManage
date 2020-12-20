@@ -46,18 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Appointments.cs">
-      <SubType>Form</SubType>
+    <Compile Include="Roundedbutton.cs">
+      <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Appointments.Designer.cs">
-      <DependentUpon>Appointments.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Helpers\GlobalFunctions.cs" />
-    <Compile Include="Information.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Information.Designer.cs">
-      <DependentUpon>Information.cs</DependentUpon>
+    <Compile Include="Button_WOC.cs">
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -65,23 +58,11 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="MainMenu.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MainMenu.Designer.cs">
-      <DependentUpon>MainMenu.cs</DependentUpon>
-    </Compile>
     <Compile Include="Mainpage.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Mainpage.Designer.cs">
       <DependentUpon>Mainpage.cs</DependentUpon>
-    </Compile>
-    <Compile Include="MyCheckups.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MyCheckups.Designer.cs">
-      <DependentUpon>MyCheckups.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -91,20 +72,11 @@
     <Compile Include="Register.Designer.cs">
       <DependentUpon>Register.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Appointments.resx">
-      <DependentUpon>Appointments.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Information.resx">
-      <DependentUpon>Information.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MainMenu.resx">
-      <DependentUpon>MainMenu.cs</DependentUpon>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Mainpage.resx">
       <DependentUpon>Mainpage.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MyCheckups.resx">
-      <DependentUpon>MyCheckups.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -116,6 +88,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Register.resx">
+      <DependentUpon>Register.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -151,7 +126,8 @@
     <None Include="Resources\Ekran Alıntısı.PNG" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\exit_preview_rev_1.png" />
+    <Content Include="Resources\heartbeatt.png" />
+    <Content Include="Resources\user.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
